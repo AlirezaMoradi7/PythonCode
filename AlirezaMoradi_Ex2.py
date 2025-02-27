@@ -29,4 +29,4 @@ df2 = pd.DataFrame(correlations.items())
 df2.columns = ["home_feature", "correlation"]
 sorted_df2=df2.sort_values(by='correlation',ascending=False)
 print(sorted_df2)
-
+print(df2)
